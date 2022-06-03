@@ -1,0 +1,331 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:white;
+    overflow: hidden;
+    border-radius: 8px;
+    border: black;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .home-h,.about-me,.education-me,.contact-me{
+      font-family: Arial;
+      text-align: center;
+      cursor: pointer;
+      text-decoration:underline ;
+      color: #04AA6D;
+      
+  }
+
+  .message-1,.message-2{
+      text-size-adjust: 20px;
+      color: aqua;
+      padding-top: 100px;
+  }
+
+
+
+  .home-paragraph,.about-me-paragraph,.education-paragraph-1{
+      line-height: 1.6;
+      font-style: oblique;
+      display: inline-block;
+      text-align: center;
+     font-size: large;
+     font-weight: bold;
+     color: azure;
+     
+  }
+
+  .column-1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row-1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    line-height: 1.6;
+    border-radius: 10px;
+    color: #04AA6D;
+    
+  }
+
+  .IT-1, .IT-2{
+    margin: 3px 10px;
+    cursor: pointer;
+    
+  }
+
+  .IT-3, .IT-4{
+    cursor: pointer;
+    
+  }
+  
+
+  .about-me{
+    padding-top: 400px;
+  }
+  
+
+  .self-profile{
+      width: 100px;
+      border-radius: 35px;
+      float: left;
+
+
+  }
+
+  .about-me-paragraph{
+      padding-top: 23px;
+      padding-right: 23px;
+      margin-left: 10px;
+  }
+  
+  
+  .strong-name{ 
+      font-size: 70px;
+      color:goldenrod;
+      text-decoration: line-through;
+  }
+  
+
+  .Photo-1,.Photo-2,.Photo-3,.Photo-4,.Photo-5,.Photo-6,.Photo-7,.Photo-8 {
+      
+      width: 300px;
+      display: inline;
+      cursor: pointer;
+  }
+
+
+
+  .Photo-1,.Photo-2,.Photo-3,.Photo-4{
+    padding-top: 60px;
+  }
+
+  .Photo-1,.Photo-8{
+    height: 400px;
+
+  }
+
+  .Photo-22,.Photo-33,.Photo-44,.Photo-55,.Photo-66{
+width: 430px;
+  }
+
+  .Photo-22,.Photo-33{
+    padding-left: 30px;
+    padding-top: 45px;
+  }
+
+  .Photo-22{
+    height: 400px;
+    
+  }
+  .Photo-33{
+    height:400px ;
+    
+  }
+
+  .Photo-66,.Photo-55{
+    height: 275px;
+  }
+  
+
+  .smiley,.smiley-1{
+    width: 36px;
+    border-radius: 18px;
+  }
+
+  .smiley-1{
+    height: 70px;
+    float: left;
+  }
+
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  .takyi-msg{
+    height: 80px;
+    padding-bottom: 5px;
+  }
+
+
+  
+  
+  .education-me{
+    padding-top: 400px;
+  }
+
+  .education-paragraph-2,.education-paragraph-3{
+    line-height: 1.6;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    color: azure;
+    display: inline-block;
+    padding-top: 45px;
+  }
+
+  .education-paragraph-4{
+    padding-top: 55px;
+  }
+
+  .education-paragraph-4,
+  .education-paragraph-4-1,
+  .education-paragraph-4-2,
+  .education-paragraph-4-3{
+    line-height: 1.6;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    color: azure;
+    display: inline-block;
+  }
+
+
+
+
+  .holphoto-1{
+    width: 550px;
+    padding-right: 100px;
+    height: 370px;
+    position: flex;
+    padding-left: 29px;
+    cursor: pointer;
+    
+    
+  }
+
+  .holphoto-2{
+    
+    position: flex;
+    padding-right:86px;
+    width: 550px;
+    cursor: pointer;
+
+  }
+  
+  .logo-okess,.logo-ug{
+    width: 100px;
+    float: left;
+  }
+
+  .course-list{
+    padding-left: 10px;
+    color: #04AA6D;
+  }
+ 
+  
+.py, .script, .cpp, .java{
+  color: #04AA6D;
+}
+
+.pic-pee,.pic-pree,.pic-chris{
+  width: 90px;
+      border-radius: 50px;
+      float: left;
+      padding-left: 30px;
+      height: 134px;
+      cursor: pointer;
+
+}
+
+
+.contact-me{
+  color: #04AA6D;
+  padding-top: 300px;
+}
+
+
+.ack{
+  padding-top: 100px;
+}
+
+.para-ack{
+  font-weight: 600;
+  color: azure;
+}
+
+.ack-head{
+  color: #04AA6D;
+}
+
+.ack-img-info{
+  color: lightblue;
+}
+
+.w3-bar-w3-black{
+  background-color: black;
+height: 50px;
+}
+
+.w3-button-w3-bar-item{
+  color: aliceblue;
+  display: flex;
+  float: right;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+
+.links{
+  color: #04AA6D;
+  
+}
+
+.link-button{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 30px;
+}
+  body{
+      background-color: rgb(153, 74, 74);
+      background-image: url(images/Harbor.webp);
+      padding-top: 3px;
+  }
